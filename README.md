@@ -7,9 +7,13 @@
 以两种形式分别训练：
 
 model_lr_and_gbdt_and_xgboost 使用了逻辑斯蒂回归， GBDT和XGBoost
+名次：tianchi_bigdata.png
 
 on_Spark  使用了Spark作数据集处理， 以Spark MLlib包构建模型
 
 
 
 即插即用!
+
+
+
