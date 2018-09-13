@@ -28,7 +28,7 @@ if __name__ == "__main__":
     	.setMaster("Local")
     	.setAppName("MyAp")
 	sc = SparkContext(conf = conf)
-	lines = sc.textFile('o2o.csv')
+	lines = sc.textFile('competition_tianchi.csv')
 	counts = lines.map(lambda x : extract(x)) \
 				  .filter(lambda x : x[0]!="") \
 				  .groupByKey() \
