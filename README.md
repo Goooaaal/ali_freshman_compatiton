@@ -18,7 +18,7 @@ on_Spark  使用了单机版Spark处理数据集, 速度提升很快
 
 
 
-名次：tianchi_bigdata.png
+最终结果：tianchi_bigdata.png
 
 
 
